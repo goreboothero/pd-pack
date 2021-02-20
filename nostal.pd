@@ -1,0 +1,18 @@
+#N canvas -828 -16 450 300 12;
+#X obj 174 196 dac~;
+#X obj 172 153 osc~;
+#X msg 137 56 60;
+#X msg 229 52 62;
+#X obj 165 94 mtof;
+#X msg 274 62 64;
+#X msg 337 49 67;
+#X msg 312 121 69;
+#X msg 312 173 0;
+#X connect 1 0 0 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 1 0;
+#X connect 5 0 4 0;
+#X connect 6 0 4 0;
+#X connect 7 0 4 0;
+#X connect 8 0 4 0;

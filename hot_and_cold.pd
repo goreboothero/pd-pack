@@ -1,0 +1,14 @@
+#N canvas -897 70 450 342 12;
+#X obj 189 169 +;
+#X msg 174 67 100;
+#X msg 235 64 1000;
+#X msg 301 82 10000;
+#X obj 186 223 print;
+#X msg 46 26 Hot inlet;
+#X msg 324 29 cold inlet;
+#X msg 111 93 10, f 4;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 1;
+#X connect 3 0 0 1;
+#X connect 7 0 0 0;
